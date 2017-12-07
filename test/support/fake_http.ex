@@ -1,5 +1,5 @@
 defmodule FakeHTTP do
-  alias OpenFoodFacts.API.ProductResponse
+  alias OpenFoodFacts.API.Product
 
   defmacro __using__(_) do
     quote do
@@ -36,7 +36,7 @@ defmodule FakeHTTP do
   def handle_call({:get, path}, _, data) do
     body = Map.get(data, path)
     resp = %HTTPoison.Response{
-      body: Poison.decode!(body, as: ProductResponse.decode_template())
+      body: Poison.decode!(body, as: Product.Response.decode_template())
     }
     {:reply, {:ok, resp}, data}
   end
