@@ -1,0 +1,2 @@
+defmodule OpenFoodFacts do
+end
