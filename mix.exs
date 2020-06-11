@@ -26,7 +26,7 @@ defmodule OpenFoodFacts.Mixfile do
   defp deps do
     [
       {:poison, "~> 3.1"},
-      {:httpoison, "~> 0.13"}
+      {:httpoison, "~> 1.7"}
     ]
   end
 end
