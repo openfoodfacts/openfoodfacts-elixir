@@ -4,8 +4,11 @@ updates:
   directory: "/"
   schedule:
     interval: daily
+  commit_message:
+    prefix: "chore"
 - package-ecosystem: github-actions
   directory: "/"
   schedule:
     interval: daily
-
+  commit_message:
+    prefix: "chore"
