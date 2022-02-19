@@ -1,15 +1,17 @@
 version: 2
 updates:
-  - package-ecosystem: mix
-    directory: "/"
+  - package-ecosystem: "mix"
+    directory: "/" # Location of package manifests
     schedule:
-      interval: daily
-    commit_message:
+      interval: "daily"
+    commit-message:
       prefix: "chore"
+      include: "scope"
+
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-        interval: "daily"
-    commit_message:
+      interval: "daily"
+    commit-message:
       prefix: "chore"
-      include_scope: true
+      include: "scope"
