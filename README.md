@@ -27,3 +27,5 @@ Andrea Franz (http://gravityblast.com)
 
 [List of contributors](https://github.com/openfoodfacts/openfoodfacts-elixir/graphs/contributors)
 
+## Third party applications
+If you use this SDK, feel free to open a PR to add your application in this list.
