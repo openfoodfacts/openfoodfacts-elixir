@@ -1,6 +1,33 @@
-# OpenFoodFacts for Elixir
+# Open Food Facts for Elixir
 
-**TODO: Add description**
+## Description
+
+This project aims to provide an Elixir library for seamless interaction with the Open Food Facts API. It will simplify the process of accessing and utilizing the wealth of food product data available on Open Food Facts, enabling developers to easily integrate this information into their Elixir applications.
+
+## Features
+
+Data Retrieval: Fetch data for individual products by barcode, name, or other identifiers.
+
+
+## Potential Use Cases
+
+* Food Tracking Apps: Build applications to help users track their food consumption, analyze nutritional intake, and make informed food choices.
+* Recipe Recommendation Systems: Develop systems that suggest recipes based on available ingredients, dietary restrictions, and nutritional preferences, using Open Food Facts data to identify suitable products.
+* Grocery Shopping Assistants: Create tools that assist users with grocery shopping by providing product information, comparing prices, and suggesting healthier alternatives.
+* Research and Analysis: Utilize the Open Food Facts dataset for research purposes, such as analyzing food trends, studying the impact of food processing, or investigating the relationship between diet and health.
+
+## Example Usage
+
+### Fetch a product by barcode
+
+
+### Search for products containing "chocolate"
+
+
+### Update a product's information
+
+
+
 
 ## Installation
 
