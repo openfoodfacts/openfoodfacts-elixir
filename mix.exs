@@ -25,7 +25,7 @@ defmodule OpenFoodFacts.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:poison, "~> 5.0"},
+      {:poison, "~> 6.0"},
       {:httpoison, "~> 2.1"}
     ]
   end
