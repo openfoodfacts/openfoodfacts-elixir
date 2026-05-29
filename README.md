@@ -1,4 +1,6 @@
 # Open Food Facts for Elixir
+![maintenance-status](https://img.shields.io/badge/maintenance-looking--for--maintainer-orange.svg)
+Based on https://openfoodfacts.github.io/documentation/docs/Product-Opener/api/
 
 ## Description
 
