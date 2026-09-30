@@ -6,6 +6,7 @@ on:
       - opened
       - labeled
       - transferred
+permissions: {}
 jobs:
   add-to-design-project:
     name: 🎨 Add issue to the openfoodfacts-design project
